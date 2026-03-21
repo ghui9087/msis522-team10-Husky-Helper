@@ -1,4 +1,4 @@
-# Team Project Page Template
+# Team Project 10 Page Template
 
 This repository is a standalone starter for a polished team project page.
 
