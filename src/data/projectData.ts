@@ -94,9 +94,9 @@ export const projectData: ProjectPageData = {
   slug: '[project-slug]',
 
   // Basic page identity
-  title: '[Project Title]',
-  subtitle: '[One sharp sentence that explains what your team is building and for whom.]',
-  ownerLine: '[Team Name or Student Names]',
+  title: 'Husky Helper',
+  subtitle: 'Your Personal UW Guide, Available 24/7',
+  ownerLine: 'Team 10 - Xueying Wang, Ji Ko, Shaohan Hu, Houming Ge',
   executiveSummary:
     '[Write a crisp executive summary here. Explain the business context, the user, the core workflow, and why this project matters in one paragraph.]',
 
@@ -110,7 +110,7 @@ export const projectData: ProjectPageData = {
 
   // Main action buttons / links
   links: [
-    { label: 'Live Tool', url: 'https://example.com', primary: true },
+    { label: 'Live Tool', url: 'https://husky-helper.lovable.app/', primary: true },
     { label: 'Demo Recording', url: 'https://example.com/demo' },
     { label: 'GitHub Repo', url: 'https://github.com/your-team/your-project' },
     { label: 'Slides PDF', url: '/project-assets/final-slides.pdf' },
@@ -118,7 +118,7 @@ export const projectData: ProjectPageData = {
   ],
 
   // Quick tags shown under the summary
-  badges: ['[React]', '[TypeScript]', '[Supabase]', '[OpenAI API]', '[Figma]', '[n8n / LangGraph / MCP]'],
+  badges: ['[React]', '[TypeScript]', '[Supabase]', '[OpenAI API]'],
 
   // Short keywords that help when this project is added to a larger gallery later.
   keywords: ['[keyword-1]', '[keyword-2]', '[keyword-3]'],
