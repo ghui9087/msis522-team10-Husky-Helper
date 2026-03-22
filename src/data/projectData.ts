@@ -112,8 +112,7 @@ export const projectData: ProjectPageData = {
   links: [
     { label: 'Live Tool', url: 'https://husky-helper.lovable.app/', primary: true },
     { label: 'GitHub Repo', url: 'https://github.com/ghui9087/husky-helper.git' },
-    { label: 'Slides PDF', url: '/project-assets/final-slides.pdf' },
-    { label: 'Technical Report', url: '/project-assets/report.pdf' },
+    { label: 'Slides PDF', url: '/project-assets/final-slides.pdf' }
   ],
 
   // Quick tags shown under the summary
