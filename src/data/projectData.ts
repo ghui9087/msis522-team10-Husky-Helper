@@ -96,9 +96,10 @@ export const projectData: ProjectPageData = {
   // Basic page identity
   title: 'Husky Helper',
   subtitle: 'Your Personal UW Guide, Available 24/7',
-  ownerLine: 'Team 10 - Xueying Wang, Ji Ko, Shaohan Hu, Houming Ge',
+  ownerLine: 'Team 10',
   executiveSummary:
-    '[Write a crisp executive summary here. Explain the business context, the user, the core workflow, and why this project matters in one paragraph.]',
+  'Husky Helper is a 24/7 digital guide built to help University of Washington students, especially international students, navigate high-friction campus and relocation tasks such as housing, banking, food, transportation, and visa-related questions. The core user workflow is simple: a student lands on the site, starts a chat, and gets fast, personalized guidance across the most common life-on-campus decisions that are usually scattered across many websites and informal sources. By centralizing practical support into one accessible interface, the project reduces confusion, saves time, and makes the transition to UW more manageable for students who need trustworthy answers quickly.'
+,
 
   // Short instruction cards shown near the top of the page
   instructions: [
@@ -112,13 +113,13 @@ export const projectData: ProjectPageData = {
   links: [
     { label: 'Live Tool', url: 'https://husky-helper.lovable.app/', primary: true },
     { label: 'Demo Recording', url: 'https://example.com/demo' },
-    { label: 'GitHub Repo', url: 'https://github.com/your-team/your-project' },
+    { label: 'GitHub Repo', url: 'https://github.com/ghui9087/husky-helper.git' },
     { label: 'Slides PDF', url: '/project-assets/final-slides.pdf' },
     { label: 'Technical Report', url: '/project-assets/report.pdf' },
   ],
 
   // Quick tags shown under the summary
-  badges: ['[React]', '[TypeScript]', '[Supabase]', '[OpenAI API]'],
+  badges: ['[React]', '[TypeScript]', '[Supabase]', '[Gemini API]'],
 
   // Short keywords that help when this project is added to a larger gallery later.
   keywords: ['[keyword-1]', '[keyword-2]', '[keyword-3]'],
@@ -128,7 +129,7 @@ export const projectData: ProjectPageData = {
 
   // Small summary cards near the top
   metrics: [
-    { label: 'Team', value: '[3-5 students]', note: 'List names and roles below' },
+    { label: 'Team', value: '[3-5 students]', note: 'Xueying Wang, Ji Ko, Shaohan Hu, Houming Ge' },
     { label: 'Core User', value: '[User Segment]', note: 'Who the experience is designed for' },
   ],
 
@@ -143,9 +144,10 @@ export const projectData: ProjectPageData = {
 
   // Team members
   members: [
-    { name: '[Student Name]', role: '[Role or Function]', focus: '[What this person owned]' },
-    { name: '[Student Name]', role: '[Role or Function]', focus: '[What this person owned]' },
-    { name: '[Student Name]', role: '[Role or Function]', focus: '[What this person owned]' },
+    { name: 'Xueying Wang', role: 'Project Lead', focus: 'Overall project management and coordination' },
+    { name: 'Ji Ko', role: 'Frontend Developer', focus: 'User interface design and implementation' },
+    { name: 'Shaohan Hu', role: 'Backend Developer', focus: 'API development and database integration' },
+    { name: 'Houming Ge', role: 'AI Engineer', focus: 'Machine learning model development and deployment' },
   ],
 
   // Gallery cards
@@ -153,8 +155,8 @@ export const projectData: ProjectPageData = {
   gallery: [
     {
       title: 'Hero Screenshot',
-      caption: '[Show the main interface or most impressive moment of the product.]',
-      assetPath: '/project-assets/example-screen.png',
+      caption: 'Husky Helper landing page featuring a 24/7 UW student guide with quick access to housing, food, transit, and visa support.',
+      assetPath: '/project-assets/img_1.jpg',
     },
     {
       title: 'Workflow or Architecture',
