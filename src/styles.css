@@ -65,6 +65,10 @@ select {
   position: relative;
   overflow: hidden;
   padding: 3rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(260px, 360px);
+  align-items: center;
+  gap: 2rem;
 }
 
 .hero-surface::before {
@@ -89,6 +93,23 @@ select {
 
 .hero-copy {
   max-width: 52rem;
+}
+
+.hero-visual {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-visual-image {
+  width: min(100%, 320px);
+  aspect-ratio: 10 / 16;
+  object-fit: cover;
+  border-radius: 2.2rem;
+  border: 6px solid rgba(15, 23, 42, 0.92);
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.2);
 }
 
 .template-pill,
@@ -743,6 +764,18 @@ select {
   .padded-card,
   .closing-card {
     padding: 1.5rem;
+  }
+
+  .hero-surface {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-visual {
+    order: -1;
+  }
+
+  .hero-visual-image {
+    width: min(100%, 280px);
   }
 }
 

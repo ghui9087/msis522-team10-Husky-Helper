@@ -83,6 +83,16 @@ export default function App() {
               ))}
             </div>
           </div>
+
+          {projectData.heroImagePath ? (
+            <div className="hero-visual">
+              <img
+                src={projectData.heroImagePath}
+                alt={projectData.heroImageAlt ?? projectData.title}
+                className="hero-visual-image"
+              />
+            </div>
+          ) : null}
         </section>
 
         <section className="surface instructions-surface">
