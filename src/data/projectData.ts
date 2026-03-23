@@ -234,25 +234,25 @@ export const projectData: ProjectPageData = {
     {
       phase: 'Now',
       items: [
-        'A live web experience presents Husky Helper as a 24/7 UW student guide.',
-        'The project already includes a working landing page, screenshots, slides, and a technical report.',
-        'Visible product detail is still strongest at the entry and positioning layer rather than a deeply documented end-to-end support workflow.',
+        'Support the six highest-priority student need areas: housing, banking, food, transportation, visa support, and campus resources.',
+        'Give students one place to ask common UW transition questions instead of searching across many separate university pages.',
+        'Frame answers around faster discovery, clearer next steps, and lower confusion for international students.',
       ],
     },
     {
       phase: 'Next',
       items: [
-        'Expand the chat flow so each topic area leads to richer, more personalized recommendations.',
-        'Validate answer quality and usability with real UW students, especially international students in early onboarding.',
-        'Add stronger evidence assets such as sample conversations, user testing notes, and workflow diagrams.',
+        'Deepen each topic flow so students receive more actionable guidance for tasks like finding housing, opening a bank account, or understanding visa obligations.',
+        'Connect answers more directly to the right UW offices, campus services, and practical follow-up actions.',
+        'Validate that Husky Helper reduces search time and makes student decision-making easier than the traditional multi-page search process.',
       ],
     },
     {
       phase: 'Later',
       items: [
-        'Broaden coverage into a more complete digital concierge for student life and university onboarding.',
-        'Partner with campus offices or student support organizations to improve source quality and trust.',
-        'Evolve Husky Helper into a persistent campus guidance layer that supports students beyond their first weeks at UW.',
+        'Expand from onboarding help into a broader student support assistant that remains useful throughout the UW experience.',
+        'Build stronger partnerships with campus offices so guidance stays trusted, current, and easier to maintain.',
+        'Turn Husky Helper into a more complete campus concierge that combines resource discovery, question answering, and personalized student support.',
       ],
     },
   ],
