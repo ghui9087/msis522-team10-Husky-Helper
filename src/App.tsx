@@ -353,9 +353,15 @@ export default function App() {
                     </div>
                     <span className="language-pill">{snippet.language}</span>
                   </div>
-                  <pre>
-                    <code>{snippet.code}</code>
-                  </pre>
+                  {snippet.imagePath ? (
+                    <div className="code-image-wrap">
+                      <img src={snippet.imagePath} alt={snippet.title} className="code-image" />
+                    </div>
+                  ) : (
+                    <pre>
+                      <code>{snippet.code}</code>
+                    </pre>
+                  )}
                 </div>
               ))}
             </div>
