@@ -62,6 +62,8 @@ export interface ProjectPageData {
   title: string;
   subtitle: string;
   ownerLine: string;
+  heroImagePath?: string;
+  heroImageAlt?: string;
   executiveSummary: string;
   instructions: string[];
   links: ProjectLink[];
@@ -97,6 +99,8 @@ export const projectData: ProjectPageData = {
   title: 'Husky Helper',
   subtitle: 'Your Personal UW Guide, Available 24/7',
   ownerLine: 'Team 10',
+  heroImagePath: '/project-assets/dubs-mascot-Bsh1gdR-.jpg',
+  heroImageAlt: 'Dubs mascot',
   executiveSummary:
     'Husky Helper is a 24/7 digital guide built to help University of Washington students, especially international students, navigate high-friction campus and relocation tasks such as housing, banking, food, transportation, and visa-related questions. The core user workflow is simple: a student lands on the site, starts a chat, and gets fast, personalized guidance across the most common life-on-campus decisions that are usually scattered across many websites and informal sources. By centralizing practical support into one accessible interface, the project reduces confusion, saves time, and makes the transition to UW more manageable for students who need trustworthy answers quickly.',
 
