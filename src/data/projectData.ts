@@ -165,9 +165,9 @@ export const projectData: ProjectPageData = {
       placeholder: 'Add a system diagram, workflow slide, or whiteboard export',
     },
     {
-      title: 'Evidence of Validation',
-      caption: 'Recommended asset: sample chat responses, user feedback, or before-and-after evidence showing that students find answers faster with Husky Helper.',
-      placeholder: 'Add proof that the idea works or is promising',
+      title: 'Housing Chat Example',
+      caption: 'Example housing conversation showing how Husky Helper can guide students through practical relocation and accommodation questions.',
+      assetPath: '/project-assets/chat-housing.jpg',
     },
   ],
 
