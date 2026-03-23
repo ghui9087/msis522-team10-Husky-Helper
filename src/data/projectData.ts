@@ -44,7 +44,8 @@ export interface CodeHighlight {
   title: string;
   language: string;
   note: string;
-  code: string;
+  code?: string;
+  imagePath?: string;
 }
 
 export interface RoadmapPhase {
@@ -116,7 +117,7 @@ export const projectData: ProjectPageData = {
   links: [
     { label: 'Live Tool', url: 'https://husky-helper.lovable.app/', primary: true },
     { label: 'GitHub Repo', url: 'https://github.com/ghui9087/husky-helper.git' },
-    { label: 'Slides PDF', url: '/project-assets/final-slides.pdf' }
+    { label: 'Slides PDF', url: '/project-assets/HuskyHelper_final.pdf' }
   ],
 
   // Quick tags shown under the summary
@@ -165,9 +166,9 @@ export const projectData: ProjectPageData = {
       placeholder: 'Add a system diagram, workflow slide, or whiteboard export',
     },
     {
-      title: 'Evidence of Validation',
-      caption: 'Recommended asset: sample chat responses, user feedback, or before-and-after evidence showing that students find answers faster with Husky Helper.',
-      placeholder: 'Add proof that the idea works or is promising',
+      title: 'Housing Chat Example',
+      caption: 'Example housing conversation showing how Husky Helper can guide students through practical relocation and accommodation questions.',
+      assetPath: '/project-assets/chat-housing.jpg',
     },
   ],
 
@@ -221,23 +222,10 @@ export const projectData: ProjectPageData = {
   // Keep this short. One or two examples is usually enough.
   codeHighlights: [
     {
-      title: 'Data-driven project page configuration',
-      language: 'ts',
-      note: 'This page is driven by a structured content object, which makes it easy to keep the project story, assets, and supporting evidence in one place.',
-      code: `export const projectData: ProjectPageData = {
-  title: 'Husky Helper',
-  subtitle: 'Your Personal UW Guide, Available 24/7',
-  links: [
-    { label: 'Live Tool', url: 'https://husky-helper.lovable.app/', primary: true },
-    { label: 'GitHub Repo', url: 'https://github.com/ghui9087/husky-helper.git' },
-  ],
-  gallery: [
-    {
-      title: 'Hero Screenshot',
-      assetPath: '/project-assets/img_1.jpg',
-    },
-  ],
-};`,
+      title: 'Code Implementation Screenshot',
+      language: 'image',
+      note: 'Reference screenshot of the Husky Helper implementation and project code structure.',
+      imagePath: '/project-assets/coding.jpg',
     },
   ],
 
